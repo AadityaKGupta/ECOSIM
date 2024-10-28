@@ -1,0 +1,78 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecosystem Simulation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="css/fullgame.css" rel="stylesheet">
+    <link href="css/results.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html">
+        <button class="main-page-button">
+            main page
+        </button>
+    </a>
+    <a href="pick-animal.html">
+        <button class="rules-button">
+            back
+        </button>
+    </a>
+    <a href="quiz.html">
+        <button class="quiz-button">
+            quiz
+        </button>
+    </a>
+    <a href="exit.html">
+        <button class="exit-button">
+            exit
+        </button>
+    </a>
+</div>
+<div class="spacer">
+
+
+</div>
+
+<main>
+    <div class="heading">
+        <h2>Ecosystem Simulation</h2>
+
+    </div>
+    <button id="startSimulation" style="visibility: hidden;">Start Simulation</button>
+
+    <!-- Container where organisms will be dynamically added -->
+    <div id="organismsContainer">
+
+    <div class="organism" id="Rabbit"><h3>Rabbit</h3><p>Count: <span id="Rabbit-count">39</span></p></div><div class="organism" id="Fox"><h3>Fox</h3><p>Count: <span id="Fox-count">5</span></p></div><div class="organism" id="Deer"><h3>Deer</h3><p>Count: <span id="Deer-count">3</span></p></div><div class="organism" id="Coyote"><h3>Coyote</h3><p>Count: <span id="Coyote-count">2</span></p></div><div class="organism" id="Bobcat"><h3>Bobcat</h3><p>Count: <span id="Bobcat-count">8</span></p></div><div class="organism" id="Sparrow"><h3>Sparrow</h3><p>Count: <span id="Sparrow-count">0</span></p></div><div class="organism" id="Hawk"><h3>Hawk</h3><p>Count: <span id="Hawk-count">10</span></p></div><div class="organism" id="Grass"><h3>Grass</h3><p>Count: <span id="Grass-count">1589</span></p></div><div class="organism" id="Wildflower"><h3>Wildflower</h3><p>Count: <span id="Wildflower-count">905</span></p></div><div class="organism" id="Shrub"><h3>Shrub</h3><p>Count: <span id="Shrub-count">215</span></p></div><div class="organism" id="Tree"><h3>Tree</h3><p>Count: <span id="Tree-count">31</span></p></div><div class="organism" id="Weed"><h3>Weed</h3><p>Count: <span id="Weed-count">2218</span></p></div><div class="organism" id="Butterfly"><h3>Butterfly</h3><p>Count: <span id="Butterfly-count">102</span></p></div><div class="organism" id="Beetle"><h3>Beetle</h3><p>Count: <span id="Beetle-count">76</span></p></div><div class="organism" id="Grasshopper"><h3>Grasshopper</h3><p>Count: <span id="Grasshopper-count">175</span></p></div><div class="organism" id="Ant"><h3>Ant</h3><p>Count: <span id="Ant-count">143</span></p></div><div class="organism" id="Human"><h3>Human</h3><p>Count: <span id="Human-count">3</span></p></div></div>
+    <div class="input-group">
+        <a target="_blank" href="https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-ecology/how-to-calculate-a-biodiversity-index">
+            <label class="bioIndex" for="adiversity Index">Biodiversity Index:</label>
+        </a>
+
+        <organism type="number" id="bioIndex" name="number" min="0" value="8">325</organism></div>
+
+
+
+</main>
+<div class="chart">
+    <canvas id="populationChart" width="1020" height="510" style="display: block; box-sizing: border-box; height: 408px; width: 816px;"></canvas>
+    <textarea id="messageBox" readonly=""></textarea>
+</div>
+
+<div class="spacer">
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+
+<img src="rain.jpg" class="img">
+
+
+</body></html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecosystem Simulation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="css/fullgame.css" rel="stylesheet">
+    <link href="css/results.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html">
+        <button class="main-page-button" >
+            main page
+        </button>
+    </a>
+    <a href="pick-animal.html">
+        <button class="rules-button" >
+            back
+        </button>
+    </a>
+    <a href="quiz.html">
+        <button class="quiz-button" >
+            quiz
+        </button>
+    </a>
+    <a href="exit.html">
+        <button class="exit-button" >
+            exit
+        </button>
+    </a>
+</div>
+<div class="spacer">
+
+
+</div>
+
+<main>
+    <div class="heading">
+        <h2>Ecosystem Simulation</h2>
+
+    </div>
+    <button id="startSimulation">Start Simulation</button>
+
+    <!-- Container where organisms will be dynamically added -->
+    <div id="organismsContainer">
+
+    </div>
+    <div class="input-group">
+        <a target="_blank" href="https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-ecology/how-to-calculate-a-biodiversity-index">
+            <label class="bioIndex" for="adiversity Index">Biodiversity Index:</label>
+        </a>
+
+        <organism type="number" id="bioIndex" name="number" min="0" value="8">
+    </div>
+
+
+
+</main>
+<div class="chart">
+    <canvas id="populationChart" width="400" height="200"></canvas>
+    <textarea id="messageBox" readonly></textarea>
+</div>
+
+<div class="spacer">
+
+</div>
+
+
+<script src="js/app.js"></script>
+</body>
+
+<img src="images/rain.jpg" class="img">
+
+</html>
