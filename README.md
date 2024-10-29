@@ -2,15 +2,10 @@
 
 EcoSim is a web-based ecosystem simulation where various organisms (such as rabbits, foxes, and plants) interact in a digital environment. Users can observe how natural factors like predation, reproduction, and environmental limits shape population dynamics within this ecosystem. Built with JavaScript, HTML, and CSS, EcoSim provides an engaging interface for exploring ecological principles.
 
-To add the **Demo Option** to the README on your GitHub project, you can follow this structure:
-
----
-
 ## Demo
 
+Try out the simulation online!  
 [Run EcoSim Demo](https://AadityaKGupta.github.io/Ecosystem-Simulation)
-
-
 
 ## Features
 
@@ -26,6 +21,7 @@ To add the **Demo Option** to the README on your GitHub project, you can follow 
 - [Functions Overview](#functions-overview)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Installation
 
@@ -33,7 +29,7 @@ To add the **Demo Option** to the README on your GitHub project, you can follow 
    ```bash
    git clone https://github.com/AadityaKGupta/Ecosystem-Simulation.git
    ```
-3. Open `index.html` in a web browser to start the simulation.
+2. Open `index.html` in a web browser to start the simulation.
 
 ## Usage
 
@@ -68,3 +64,10 @@ Contributions are welcome! Feel free to submit issues, feature requests, or pull
 ## License
 
 This project is licensed under the MIT License.
+
+## Contact
+
+For questions, feedback, or suggestions, feel free to reach out:
+
+- **GitHub**: [AadityaKGupta](https://github.com/AadityaKGupta)
+- **Email**: [k.aaditya.g@gmail.com](mailto:your-email@example.com) 
