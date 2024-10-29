@@ -68,6 +68,6 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions, feedback, or suggestions, feel free to reach out:
-
-- **GitHub**: [AadityaKGupta](https://github.com/AadityaKGupta)
+- **Author**: Aaditya Kumar Gupta
 - **Email**: [k.aaditya.g@gmail.com](mailto:your-email@example.com) 
+- **GitHub**: [AadityaKGupta](https://github.com/AadityaKGupta)
