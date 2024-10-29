@@ -8,7 +8,8 @@ To add the **Demo Option** to the README on your GitHub project, you can follow 
 
 ## Demo
 
-[Run EcoSim Demo](https://github.com/AadityaKGupta/Ecosystem-Simulation) 
+[Run EcoSim Demo](https://AadityaKGupta.github.io/Ecosystem-Simulation)
+
 
 
 ## Features
