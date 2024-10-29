@@ -5,7 +5,7 @@ EcoSim is a web-based ecosystem simulation where various organisms (such as rabb
 ## Demo
 
 Try out the simulation online!  
-[Run EcoSim Demo](https://aadityakgupta.github.io/ECOSIM/)
+[Run EcoSim](https://aadityakgupta.github.io/ECOSIM/)
 
 ## Features
 
