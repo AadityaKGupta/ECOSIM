@@ -2,11 +2,6 @@
 
 EcoSim is a web-based ecosystem simulation where various organisms (such as rabbits, foxes, and plants) interact in a digital environment. Users can observe how natural factors like predation, reproduction, and environmental limits shape population dynamics within this ecosystem. Built with JavaScript, HTML, and CSS, EcoSim provides an engaging interface for exploring ecological principles.
 
-## Demo
-
-Try out the simulation online!  
-[Run EcoSim](https://aadityakgupta.github.io/ECOSIM/)
-
 ## Features
 
 - **Organism Interactions**: Allows organisms like predators and prey to interact within the ecosystem, affecting population balance.
